@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <!--
+  Copyright (c) 2013 The Chromium Authors. All rights reserved.
+  Use of this source code is governed by a BSD-style license that can be
+  found in the LICENSE file.
+  -->
+<head>
+
+  <title>hello_tutorial</title>
+
+  <script type="text/javascript">
+    HelloTutorialModule = null;  // Global application object.
+    statusText = 'NO-STATUS';
+    //statusText = 'error';
+
+    // Indicate load success.
+    function moduleDidLoad() {
+      HelloTutorialModule = document.getElementById('hello_tutorial');
+      updateStatus('SUCCESS');
+    }
+
+    // The 'message' event handler.  This handler is fired when the NaCl module
+    // posts a message to the browser by calling PPB_Messaging.PostMessage()
+    // (in C) or pp::Instance.PostMessage() (in C++).  This implementation
+    // simply displays the content of the message in an alert panel.
+
+    /* O manipulador de eventos "mensagem" . Esse manipulador é despedido quando o módulo de NaCl8 
+    posta uma mensagem para o navegador chamando PPB_Messaging.PostMessage ()*/
+    /* ( Em C ) ou pp::Instance.PostMessage( )(em C ++) esta implementação*/
+    // Simplesmente exibe o conteúdo da mensagem em um painel de alerta.
+    function handleMessage(message_event) {
+      alert(message_event.data);
+      //document.write(message_event.data)
+    }
+
+    // If the page loads before the Native Client module loads, then set the
+    // status message indicating that the module is still loading.  Otherwise,
+    // do not change the status message.
+
+    // Se a página for carregada antes dos nativos cargas módulo cliente, em seguida, definir a
+    // mensagem de status indicando que o módulo ainda está carregando. Caso contrário,
+    // Não mudam a mensagem de status.
+    function pageDidLoad() {
+      if (HelloTutorialModule == null) {
+        updateStatus('LOADING...');
+      } else {
+        // It's possible that the Native Client module onload event fired
+        // before the page's onload event.  In this case, the status message
+        // will reflect 'SUCCESS', but won't be displayed.  This call will
+        // display the current message.
+
+        // É possível que o evento onload módulo Native Client demitido
+         // Antes do evento onload da página. Neste caso, a mensagem de estado
+         // Vai refletir "sucesso", mas não será exibido. Esta chamada
+         // Exibe a mensagem atual.
+        updateStatus();
+      }
+    }
+
+    // Set the global status message.  If the element with id 'statusField'
+    // exists, then set its HTML to the status message as well.
+    // opt_message The message test.  If this is null or undefined, then
+    // attempt to set the element with id 'statusField' to the value of
+    // |statusText|.
+
+    // Definir a mensagem de status global. Se o elemento com id 'statusField'
+     // Existe, em seguida, definir o seu HTML para a mensagem de status também.
+     // Opt_message O teste mensagem. Se este for nulo ou indefinido, em seguida,
+     // Tentativa de definir o elemento com id 'statusField' para o valor de
+     // | StatusText |.
+    function updateStatus(opt_message) {
+      if (opt_message)
+        statusText = opt_message;
+      var statusField = document.getElementById('statusField');
+      if (statusField) {
+        statusField.innerHTML = statusText;
+      }
+    }
+  </script>
+</head>
+<body onload="pageDidLoad()">
+
+  <h1>NaCl C++ Tutorial: Getting Started</h1>
+  <p>
+    <!--
+    Load the published pexe.
+    Note: Since this module does not use any real-estate in the browser, its
+    width and height are set to 0.
+
+    Note: The <embed> element is wrapped inside a <div>, which has both a 'load'
+    and a 'message' event listener attached.  This wrapping method is used
+    instead of attaching the event listeners directly to the <embed> element to
+    ensure that the listeners are active before the NaCl module 'load' event
+    fires.  This also allows you to use PPB_Messaging.PostMessage() (in C) or
+    pp::Instance.PostMessage() (in C++) from within the initialization code in
+    your module.
+    -->
+
+    <!--
+     Carregue o Pexe publicado.
+     Nota: Uma vez que este módulo não usa qualquer imobiliário no navegador, o seu
+     largura e altura são definidas como 0.
+
+     Nota: O elemento <embed> é enrolado dentro de um <div>, que tem tanto uma 'carga'
+     e um ouvinte "mensagem" evento anexado. Este método de embalar é utilizada
+     em vez de anexar os ouvintes de eventos diretamente para o elemento <embed> para
+     garantir que os ouvintes estão ativos antes de 'carga' caso o módulo NaCl
+     incêndios. Isso também permite que você use PPB_Messaging.PostMessage () (em C) ou
+     pp :: Instance.PostMessage () (em C ++) a partir do código de inicialização em
+     seu módulo.
+     -->
+    <div id="listener">
+      <script type="text/javascript">
+        var listener = document.getElementById('listener');
+        listener.addEventListener('load', moduleDidLoad, true);
+        listener.addEventListener('message', handleMessage, true);
+      </script>
+
+      <embed id="hello_tutorial"
+             width=0 height=0
+             src="hello_tutorial.nmf"
+             type="application/x-pnacl" />
+    </div>
+  </p>
+
+  <h2>Status <code id="statusField">NO-STATUS</code></h2>
+</body>
+</html>
