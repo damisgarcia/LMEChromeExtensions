@@ -1,0 +1,107 @@
+# Updated by fix_deps.py
+pnacl/Release/media_stream_video.o: media_stream_video.cc \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\GLES2/gl2.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\GLES2/gl2platform.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\KHR/khrplatform.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\GLES2/gl2ext.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_errors.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_macros.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb_opengles2.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_resource.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_stdint.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/completion_callback.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_completion_callback.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/logging.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/module.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_instance.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_module.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb_core.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_bool.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_time.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/core.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/output_traits.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/array_output.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_array_output.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/pass_ref.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/var.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_var.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/resource.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/instance_handle.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/graphics_3d.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb_graphics_3d.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_graphics_3d.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/graphics_3d_client.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/instance.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb_console.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/view.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/rect.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_rect.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_point.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_size.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/point.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/size.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/media_stream_video_track.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb_media_stream_video_track.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/var_dictionary.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/var_array.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/video_frame.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb_video_frame.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/lib/gl/gles2/gl2ext_ppapi.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/dev/ppb_opengles2ext_dev.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/utility/completion_callback_factory.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/utility/completion_callback_factory_thread_traits.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/utility/threading/lock.h
+media_stream_video.cc:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\GLES2/gl2.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\GLES2/gl2platform.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\KHR/khrplatform.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\GLES2/gl2ext.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_errors.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_macros.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb_opengles2.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_resource.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_stdint.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/completion_callback.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_completion_callback.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/logging.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/module.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_instance.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_module.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb_core.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_bool.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_time.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/core.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/output_traits.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/array_output.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_array_output.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/pass_ref.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/var.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_var.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/resource.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/instance_handle.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/graphics_3d.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb_graphics_3d.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_graphics_3d.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/graphics_3d_client.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/instance.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb_console.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/view.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/rect.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_rect.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_point.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_size.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/point.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/size.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/media_stream_video_track.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb_media_stream_video_track.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/var_dictionary.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/var_array.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/video_frame.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb_video_frame.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/lib/gl/gles2/gl2ext_ppapi.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/dev/ppb_opengles2ext_dev.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/utility/completion_callback_factory.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/utility/completion_callback_factory_thread_traits.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/utility/threading/lock.h:
