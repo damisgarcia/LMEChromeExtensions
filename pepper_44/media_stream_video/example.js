@@ -10,6 +10,8 @@ function success(s) {
     command: 'init',
     track: stream.getVideoTracks()[0]
   });
+
+  common.naclModule.postMessage({command:'test',text: 'Lorem Ipsum'})
 }
 
 function failure(e) {
