@@ -47,6 +47,7 @@ namespace {
 
 class StreamVideo : public pp::Instance,public pp::Graphics3DClient {
   public:
+    int x;
   StreamVideo(PP_Instance instance, pp::Module* module);
   virtual ~StreamVideo();
 

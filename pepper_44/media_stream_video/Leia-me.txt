@@ -1,0 +1,16 @@
+Para compilar projeto
+
+1ºpasso- Trocar em Makefile a variavel NACL_SDK_ROOT:
+	
+	NACL_SDK_ROOT ?= $(abspath $(CURDIR)/../../..)
+
+pelo caminho do pepper_xx, no meu caso:
+	
+	NACL_SDK_ROOT = D:\Plugin_lousa\nacl_sdk\nacl_sdk\pepper_44
+
+2ºpasso- Modificar o arquivo make.bat:
+Antes:
+	@..\..\..\tools\make.exe %*
+
+Depois(meu caso):
+	D:\Plugin_lousa\nacl_sdk\nacl_sdk\pepper_44\tools\make.exe
