@@ -7,7 +7,8 @@
 
 VALID_TOOLCHAINS := pnacl newlib glibc clang-newlib win
 
-NACL_SDK_ROOT ?= $(abspath $(CURDIR)/../../..)
+#NACL_SDK_ROOT ?= $(abspath $(CURDIR)/../../..)
+NACL_SDK_ROOT = D:\Plugin_lousa\nacl_sdk\nacl_sdk\pepper_44
 
 TARGET = media_stream_video
 
