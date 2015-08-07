@@ -1,0 +1,1 @@
+ffmpeg -f dshow -i video="screen-capture-recorder" output.flv
