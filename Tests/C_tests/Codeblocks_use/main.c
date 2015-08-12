@@ -9,10 +9,15 @@
 #include <windows.h>
 #include <stdio.h>
 #include <time.h>
+#include <thread>
+#include
 //#include <iostream>
 
 //using namespace std;
-
+void task()
+{
+    system("ffmpeg -framerate 25 -f dshow -i video=\"UScreenCapture\" output.mp4");
+}
 int main() {
   //cout<<"Numero de dispositivos"<<endl;
 //	struct AVDeviceInfoList* list=NULL;
@@ -26,9 +31,9 @@ int main() {
 //	clock_t t2 = clock();
 //	printf("Tempo %f",(float)t2-t1);
 
-	system("ffmpeg -framerate 25 -f dshow -i video=\"UScreenCapture\" output.mp4");
-	printf("\n####################Querendo sair############################\n");
-	system("q");
+    thread t1(task);
+	Sleep(30000);
+	printf("\n#################### Encerrando ############################\n");
   return 0;
 }
 
