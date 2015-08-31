@@ -22,12 +22,11 @@ void Dialog::on_pushButton_clicked()
     {
         QString str = ui->textBox->text();
 
-        qDebug()<<vid->cmd->command;
-
         if(!str.isEmpty()) vid->setFileName(str,"mp4");
         else vid->setFileName("testando","mp4");
         vid->recordScreen();
         ui->pushButton->setText("Parar");
+//        qDebug()<<vid->cmd->command;
     }
     else
     {

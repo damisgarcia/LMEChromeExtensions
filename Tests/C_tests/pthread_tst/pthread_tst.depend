@@ -959,3 +959,11 @@
 1414054118 d:\qt\qt5.4.1\tools\mingw491_32\i686-w64-mingw32\include\sec_api\tchar_s.h
 	<tchar.h>
 
+1440789402 source:d:\plugin_lousa\lmechromeextensions\tests\c_tests\pthread_tst\main.cpp
+	<pthread.h>
+	<stdio.h>
+	<windows.h>
+	<string>
+	<iostream>
+	<sstream>
+

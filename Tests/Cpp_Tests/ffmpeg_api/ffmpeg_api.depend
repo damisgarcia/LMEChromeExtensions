@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1440444106 source:d:\plugin_lousa\lmechromeextensions\tests\cpp_tests\ffmpeg_api\main.cpp
+	"fcntl.h"
+	<libavdevice/avdevice.h>
+	<libswscale/swscale.h>
+	<opencv2/opencv.hpp>
+	<iostream>
+

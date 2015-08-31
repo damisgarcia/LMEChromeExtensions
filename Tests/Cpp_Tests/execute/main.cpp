@@ -4,7 +4,6 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
-#undef NO_OLDNAMES
 
 using namespace std;
 
@@ -14,13 +13,13 @@ int main()
     int status;
 
     fp = popen("ffmpeg -f dshow -i video=UScreenCapture output.mp4 ", "w");
-    if (fp == NULL) return -2;
-    Sleep(60000);
+    if (fp == NULL) return -1;
+    Sleep(20000);
 
     fputs("q",fp);  ///Enviar "q" para encerrar captura
     status = pclose(fp);
 
-    if (status == -1) return -1;
+    if (status == -1) return -2;
 
     return 0;
 }

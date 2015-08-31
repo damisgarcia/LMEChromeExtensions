@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1439576700 source:d:\plugin_lousa\lmechromeextensions\tests\cpp_tests\process\main.cpp
+	<windows.h>
+	<tchar.h>
+	<stdio.h>
+

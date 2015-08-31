@@ -11,6 +11,7 @@ VideoRecord::VideoRecord(QObject *parent)
 
 VideoRecord::~VideoRecord()
 {
+    cmd->finish();   //Finaliza o processos
     cmd->~FCommand();
 }
 
@@ -49,7 +50,7 @@ void VideoRecord::defaultArguments()
 void VideoRecord::stopRecorder()
 {
     cmd->write("q"); //Parar captura
-    cmd->finish();   //Finaliza o processos
+    this->recording = false;
 }
 }
 
