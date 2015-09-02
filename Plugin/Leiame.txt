@@ -1,0 +1,1 @@
+Copiar "1Pluguin_lousa" para pasta nacl_sdk\pepper_4x\examples\api

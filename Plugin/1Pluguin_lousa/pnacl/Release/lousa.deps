@@ -1,0 +1,57 @@
+# Updated by fix_deps.py
+pnacl/Release/lousa.o: lousa.cc \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/instance.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_instance.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_macros.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_stdint.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_resource.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb_console.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_bool.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_var.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/instance_handle.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/view.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/resource.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/pass_ref.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/rect.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_rect.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_point.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_size.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/point.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/size.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/logging.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/module.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_module.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb_core.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_completion_callback.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_time.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/core.h \
+  D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/var.h
+lousa.cc:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/instance.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_instance.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_macros.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_stdint.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_resource.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb_console.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_bool.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_var.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/instance_handle.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/view.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/resource.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/pass_ref.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/rect.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_rect.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_point.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_size.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/point.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/size.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/logging.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/module.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_module.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/ppb_core.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_completion_callback.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/c/pp_time.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/core.h:
+D:/Plugin_lousa/nacl_sdk/nacl_sdk/pepper_44/include\ppapi/cpp/var.h:
