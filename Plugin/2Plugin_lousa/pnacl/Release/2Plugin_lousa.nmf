@@ -1,0 +1,12 @@
+{
+  "program": {
+    "portable": {
+      "pnacl-translate": {
+        "url": "2Plugin_lousa.pexe"
+      },
+      "pnacl-debug": {
+        "url": "2Plugin_lousa_unstripped.bc"
+      }
+    }
+  }
+}

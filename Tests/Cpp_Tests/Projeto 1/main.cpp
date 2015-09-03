@@ -13,9 +13,9 @@ int main()
     FILE *fp;
     int status;
 
-    fp = popen("ffmpeg -f dshow -i video=UScreenCapture output.mp4 ", "w");
+    fp = popen("ffmpeg -t 00:00:10 -f dshow -i video=UScreenCapture output.mp4 ", "w");
     if (fp == NULL) return -2;
-    Sleep(60000);
+    Sleep(15000);
 
     fputs("q",fp);  ///Enviar "q" para encerrar captura
     status = pclose(fp);
