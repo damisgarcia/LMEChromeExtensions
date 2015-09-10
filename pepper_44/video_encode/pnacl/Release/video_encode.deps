@@ -1,0 +1,99 @@
+# Updated by fix_deps.py
+pnacl/Release/video_encode.o: video_encode.cc \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_errors.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_macros.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_codecs.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_bool.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_point.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_stdint.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_rect.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_size.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/ppb_console.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_instance.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_var.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/input_event.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/ppb_input_event.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_resource.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_time.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_touch_point.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/resource.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/instance_handle.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/pass_ref.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/touch_point.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/point.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/instance.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/view.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/rect.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/size.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/logging.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/media_stream_video_track.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/ppb_media_stream_video_track.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_completion_callback.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/var.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/module.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_module.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/ppb.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/ppb_core.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/core.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/var_array_buffer.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/var_dictionary.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/var_array.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/video_encoder.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/completion_callback.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/output_traits.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/array_output.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_array_output.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/video_frame.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/ppb_video_frame.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/utility/completion_callback_factory.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/utility/completion_callback_factory_thread_traits.h \
+  /home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/utility/threading/lock.h
+video_encode.cc:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_errors.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_macros.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_codecs.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_bool.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_point.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_stdint.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_rect.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_size.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/ppb_console.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_instance.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_var.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/input_event.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/ppb_input_event.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_resource.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_time.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_touch_point.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/resource.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/instance_handle.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/pass_ref.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/touch_point.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/point.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/instance.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/view.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/rect.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/size.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/logging.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/media_stream_video_track.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/ppb_media_stream_video_track.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_completion_callback.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/var.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/module.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_module.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/ppb.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/ppb_core.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/core.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/var_array_buffer.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/var_dictionary.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/var_array.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/video_encoder.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/completion_callback.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/output_traits.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/array_output.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/pp_array_output.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/cpp/video_frame.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/c/ppb_video_frame.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/utility/completion_callback_factory.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/utility/completion_callback_factory_thread_traits.h:
+/home/damisgarcia/nacl_sdk/pepper_44/include/ppapi/utility/threading/lock.h:
